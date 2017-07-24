@@ -1,0 +1,3 @@
+---
+- name: copy file to vm-nodes
+  copy: src=/root/test dest=/root

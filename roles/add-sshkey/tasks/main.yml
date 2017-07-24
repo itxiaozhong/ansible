@@ -1,0 +1,5 @@
+---
+ - name: add ssh public key to node
+   authorized_key: user=root 
+                   key="{{ lookup('file', '/root/.ssh/id_rsa.pub') }}" 
+                   state=present

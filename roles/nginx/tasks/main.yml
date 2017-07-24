@@ -1,0 +1,7 @@
+---
+- name: install nginx-full
+  apt: name=nginx-full state=present
+
+- name: copy nginx.conf
+  template: src=nginx.conf.j2 dest=/etc/nginx/conf.d/nginx.conf
+

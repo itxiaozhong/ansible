@@ -1,0 +1,13 @@
+[mac]
+mac-s1
+mac-s2
+
+
+
+[node]
+
+vm-node-001
+vm-node-002
+
+[node:vars]
+ansible_ssh_pass="wosai"
